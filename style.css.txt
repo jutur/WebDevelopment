@@ -1,0 +1,91 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+#intro {
+  text-align: center;
+}
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 100;
+  color: blue;
+}
+
+ul {
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 100;
+  color: blue;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+
+}
+
+h2{
+  font-size: 30px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+body {
+  background-color: #eae2b7;
+}
+
+a {
+  color: #d62828;
+}
+a :hover {
+ color: #f77f00;  
+}
